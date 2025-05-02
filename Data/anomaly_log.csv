@@ -1,0 +1,5 @@
+# anomaly_log.csv
+# --------------------------------
+# Stores each anomaly event:
+# timestamp, actual value, predicted value, deviation, alert type
+# Used for debugging or reviewing past disruptions.
