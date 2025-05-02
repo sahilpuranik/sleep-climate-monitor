@@ -1,0 +1,6 @@
+# cleaned_logs.csv
+# --------------------------------
+# Preprocessed version of raw_logs:
+# - Removed nulls, filled gaps, smoothed noise
+# - Normalized or scaled if needed
+# Used directly for LSTM training.
