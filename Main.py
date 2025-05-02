@@ -1,6 +1,9 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2818
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+# main.py
+# -------------------------------
+# This is the main runner script.
+# It pulls all the modules together:
+# - Reads sensor data (live or mock)
+# - Feeds recent readings to LSTM predictor
+# - Compares predicted vs. actual values
+# - Triggers alerts if an anomaly is detected
+# Runs as a loop (e.g., every 5 minutes during sleep hours).
